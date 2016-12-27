@@ -1,0 +1,33 @@
+*{margin:0;padding:0;font-family: "微软雅黑","宋体";font-stretch: normal;font-style: normal;font-weight: normal;color:#333;}
+div{width:100%;}
+body{position: absolute;width:100%;}
+video{display: block;}
+dl>dd{margin:0;}
+.top{height:300px;background: red;}
+#center{height:500px;background: yellow;}
+#content{height:auto;width:90%;padding:0 5%;}
+
+
+
+#introduce-wrap{}
+#introduce-wrap dl{width:100%;border-bottom: 1px solid #000;margin-bottom:15px;padding-bottom: 15px;}
+#introduce-wrap dl dt{width:100%;line-height: 2.3;font-size: 20px;font-weight: 600;}
+#introduce-wrap dl dd{width:100%;line-height: 1.5;font-size: 16px;color:#333;}
+
+
+
+.space{font-size:20px;line-height: 2.3;}
+#experience-wrap{}
+#experience-wrap dl{width:100%;display: flex;border-bottom: 0.5px #000 solid;padding: 10px 0;}
+#experience-wrap dl dt{width:35%;height: 100%;}
+#experience-wrap dl dd{width:55%;height: 100%;}
+#experience-wrap dl dd p{font-size:16px;line-height: 1.5;padding-left:20px;}
+#experience-wrap dl dd .p1{font-size:12px;line-height: 1.5;}
+#experience-wrap dl dd .p2{color:#000;}
+#experience-wrap dl .gt{width:10%;height: 100%;font-size: 24px;align-self: center;text-align: center;}
+
+
+
+#require-wrap dl{display: flex;height: 50px;border-bottom: 0.5px solid #000;}
+#require-wrap dl dt{height:100%;width:90%;line-height: 50px;font-size: 18px;}
+#require-wrap dl dd{height:100%;width:10%;font-size: 24px;line-height: 50px;text-align: center;}
