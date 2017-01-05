@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "H5285A812",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "reduction",/*应用名称，程序桌面图标名称*/
@@ -199,5 +199,30 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"css/index.css",
+					"js/zepto.min.js",
+					"js/fx.js",
+					"js/touch.js",
+					"js/scroll.js"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"movies/Thumbs.db",
+				"movies/1.mp4",
+				"movies/2.mp4",
+				"movies/5.mp4",
+				"movies/4.mp4",
+				"movies/3.mp4"
+			]
+		}
+	}
 }

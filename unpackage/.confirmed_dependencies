@@ -1,0 +1,11 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"js/zepto.min.js",
+			"js/fx.js",
+			"js/touch.js",
+			"js/scroll.js"
+		]
+	}
+}
